@@ -1,30 +1,150 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Men clothes shop</title>
- <link rel="stylesheet" href="style.css"> </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Магазин Одягу</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
 <body>
-<header>
-    <nav class="nav">
-    <a href="#hero" class="nav-link active">Головна</a>
-    <a href="#catalog" class="nav-link">Каталог</a>
-    <a href="#collection" class="nav-link">Новинки</a> <a href="#footer" class="nav-link">Контакти</a>
-        
-</header>
 
-<main id="hero" class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Новий Рівень Твого Стилю</h1>
-            <p class="hero-subtitle">Обирай Одяг, Який Підкреслює Твою Індивідуальність</p>
-            <a href="#" class="hero-btn">Переглянути колекцію</a>
-        </div>
-    </main>
+  <!-- Header -->
+  <header>
+    <div class="logo">🖤 STYLE</div>
+    <nav>
+      <ul>
+        <li><a href="#">Головна</a></li>
+        <li><a href="#">Каталог</a></li>
+        <li><a href="#">Новинки</a></li>
+        <li><a href="#">Акції</a></li>
+        <li><a href="#">Контакти</a></li>
+      </ul>
+    </nav>
+    <div class="icons">
+      <span>🔍</span>
+      <span>🛒</span>
+    </div>
+  </header>
 
-     <section id="catalog" class="catalog container">
-    <div class="promo-images">
-        <div class="promo-img">
-            <img src="https://www.figma.com/design/YQb8Ei0dSANRkkvwuH9naP/Ecommerce-Store-%7C-Clothing-Website-%7C-Online-Shop-%7C-Website-UI-Design-Template--Community-?node-id=1-7209&t=7V9HsksH6FUIqn9i-1" 
- </body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Новий Рівень Твого Стилю</h1>
+    <p>Обирай одяг, який підкреслює твою індивідуальність</p>
+    <a href="#" class="btn">Переглянути колекцію</a>
+  </section>
+
+  <!-- Popular Products -->
+  <section class="products">
+    <h2>Популярні товари</h2>
+    <div class="product-grid">
+      <div class="card">
+        <img src="images/jacket1.jpg" alt="">
+        <h3>Пуховик Nike X Drake NOCTA</h3>
+        <p>4.9 ⭐</p>
+        <button>Купити</button>
+      </div>
+      <div class="card">
+        <img src="images/jacket2.jpg" alt="">
+        <h3>Куртка M Nike SF WR</h3>
+        <p>4.8 ⭐</p>
+        <button>Купити</button>
+      </div>
+      <div class="card">
+        <img src="images/jacket3.jpg" alt="">
+        <h3>Пуховик The North Face Retro Black</h3>
+        <p>5.0 ⭐</p>
+        <button>Купити</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shoes Section -->
+  <section class="products">
+    <div class="product-grid">
+      <div class="card">
+        <img src="images/shox.jpg" alt="">
+        <h3>Кросівки Nike Shox Ride 2 SP</h3>
+        <button>Купити</button>
+      </div>
+      <div class="card">
+        <img src="images/tn-orange.jpg" alt="">
+        <h3>Nike Air Max Tn Plus Orange</h3>
+        <button>Купити</button>
+      </div>
+      <div class="card">
+        <img src="images/tn-silver.jpg" alt="">
+        <h3>Nike Air Max Tn Plus Silver</h3>
+        <button>Купити</button>
+      </div>
+    </div>
+    <a href="#" class="btn secondary">Весь каталог</a>
+  </section>
+
+  <!-- Collection Section -->
+  <section class="collection">
+    <h2>Наша колекція</h2>
+    <div class="product-grid">
+      <div class="card">
+        <img src="images/hoodie.jpg" alt="">
+        <h3>Худі OTAKU</h3>
+      </div>
+      <div class="card">
+        <img src="images/tshirt.jpg" alt="">
+        <h3>Футболка Sport Line</h3>
+      </div>
+      <div class="card">
+        <img src="images/sneakers.jpg" alt="">
+        <h3>Кросівки Nike Air Force</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <h2>Стиль, який говорить за тебе</h2>
+    <p>Нові колекції щотижня. Обирай свій вайб.</p>
+    <a href="#" class="btn">Переглянути каталог</a>
+
+    <div class="footer-columns">
+      <div>
+        <h4>Меню</h4>
+        <ul>
+          <li>Головна</li>
+          <li>Каталог</li>
+          <li>Новинки</li>
+          <li>Акції</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Інформація</h4>
+        <ul>
+          <li>Про нас</li>
+          <li>Доставка і оплата</li>
+          <li>Повернення</li>
+          <li>Контакти</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Контакти</h4>
+        <ul>
+          <li>+38 (099) 848-65-42</li>
+          <li>+38 (068) 460-00-04</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Соцмережі</h4>
+        <ul>
+          <li>Instagram</li>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>LinkedIn</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="copyright">© 2026 | Men's clothing store | Створено для твого стилю</p>
+  </footer>
+
+</body>
 </html>
